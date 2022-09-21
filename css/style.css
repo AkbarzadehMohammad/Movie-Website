@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 body{
     margin:0px;
     padding: 0px;
@@ -21,7 +21,7 @@ nav{
     width:100%;
     border:1px solid rgba(0,0,0,0.04);
     /* background-color: #ffffff; */
-    background-color: #09e3d1;
+    background-color: #4070f4;
     position: fixed;
     left: 0;
     top: 0;
@@ -42,7 +42,7 @@ nav .menu li a{
     font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: 500;
-    color:#585858;
+    color:#1f1f1f;
     letter-spacing: 1px;
 }
 .search{
@@ -368,8 +368,10 @@ nav .menu-btn{
     }
 }
 footer{
-    background-color: #09e3d1;
+    background-color: #4070f4;
+
 }
+
 .social-links{
     display: flex;
     justify-content: space-between;
@@ -381,6 +383,6 @@ footer{
     padding: 15px;
 }
 .boxc a{
-    color: #585858;
+    color:#1f1f1f;
     padding-left: 2px ;
 }
